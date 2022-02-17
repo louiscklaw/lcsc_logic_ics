@@ -1,0 +1,73 @@
+(module "74LVC1G11GM,115" (layer F.Cu) (tedit 620D01E5)
+  (descr "74LVC1G11GM, Extended")
+  (tags "Extended, Logic ICs, Gates")
+  (fp_text reference REF** (at 0 -2.542507) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value 74LVC1G11GM,115 (at 0 2.542507) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_circle (center -0.497358 -0.407557) (end -0.467386 -0.407557) (layer F.SilkS) (width 0.059995))
+  (fp_circle (center -0.697511 -0.357518) (end -0.676175 -0.357518) (layer F.SilkS) (width 0.127))
+  (fp_circle (center -0.442494 -0.327546) (end -0.392456 -0.327546) (layer F.Fab) (width 0.1))
+  (fp_line (start -0.577496 -0.511798) (end -0.577496 -0.542507) (layer F.SilkS) (width 0.127))
+  (fp_line (start -0.577496 -0.542507) (end -0.54506 -0.542507) (layer F.SilkS) (width 0.127))
+  (fp_line (start -0.049886 -0.542507) (end 0.054991 -0.542507) (layer F.SilkS) (width 0.127))
+  (fp_line (start 0.550013 -0.542507) (end 0.612522 -0.542507) (layer F.SilkS) (width 0.127))
+  (fp_line (start 0.612522 -0.542507) (end 0.612522 -0.450635) (layer F.SilkS) (width 0.127))
+  (fp_line (start 0.612522 -0.064275) (end 0.612522 0.049162) (layer F.SilkS) (width 0.127))
+  (fp_line (start 0.612522 0.435954) (end 0.612522 0.542507) (layer F.SilkS) (width 0.127))
+  (fp_line (start 0.612522 0.542507) (end 0.524206 0.542507) (layer F.SilkS) (width 0.127))
+  (fp_line (start 0.080899 0.542507) (end -0.076022 0.542507) (layer F.SilkS) (width 0.127))
+  (fp_line (start -0.518796 0.542507) (end -0.577496 0.542507) (layer F.SilkS) (width 0.127))
+  (fp_line (start -0.577496 0.542507) (end -0.577496 0.496634) (layer F.SilkS) (width 0.127))
+  (fp_line (start -0.612522 -0.062471) (end -0.612522 0.050965) (layer F.SilkS) (width 0.127))
+  (pad 1 smd custom (at -0.29746 -0.30748) (size 0.299949 0.299949) (layers F.Cu F.Mask F.Paste)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -0.150013 -0.100025) (xy -0.150013 0.199975) (xy -0.100025 0.199975) (xy 0.149987 -0.050013)
+         (xy 0.149987 -0.100025)) (width 0))
+    ))
+  (pad 2 smd custom (at 0.302489 -0.30748) (size 0.299949 0.300025) (layers F.Cu F.Mask F.Paste)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy 0.150013 -0.099975) (xy 0.150013 0.200025) (xy 0.100025 0.200025) (xy -0.149987 -0.049962)
+         (xy -0.149987 -0.099975)) (width 0))
+    ))
+  (pad 3 smd custom (at 0.302489 0.292469) (size 0.299949 0.300076) (layers F.Cu F.Mask F.Paste)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy 0.150064 0.100102) (xy 0.150064 -0.199924) (xy 0.100102 -0.199924) (xy -0.149936 0.050038)
+         (xy -0.149936 0.100102)) (width 0))
+    ))
+  (pad 4 smd custom (at 0.202413 -0.007506) (size 0.250038 0.300025) (layers F.Cu F.Mask F.Paste)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -0.124917 -0.149987) (xy -0.124917 0.150013) (xy 0.125095 0)) (width 0))
+    ))
+  (pad 5 smd custom (at -0.197384 -0.007506) (size 0.250038 0.300025) (layers F.Cu F.Mask F.Paste)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy 0.124943 -0.149962) (xy 0.124943 0.150038) (xy -0.125095 0.000025)) (width 0))
+    ))
+  (pad 6 smd custom (at -0.29746 0.292469) (size 0.299949 0.300025) (layers F.Cu F.Mask F.Paste)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -0.149911 0.1) (xy 0.150013 0.1) (xy 0.150013 0.049962) (xy -0.099924 -0.200025)
+         (xy -0.149911 -0.200025)) (width 0))
+    ))
+  (fp_text user REF** (at 0 4.542507) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (model Z:\footprint/lcsc_logic_ics/packages3d/74LVC1G11GM,115.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+)
